@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-100">
+    <nav class="bg-gray-800">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div class="flex items-center justify-between h-16">
+            <div class="flex items-center">
+              <div class="flex-shrink-0 p-2">
+                <h1 class="h-8 w-8 text-gray-200 text-2xl">Clichop</h1>
+              </div>
+              <div class="hidden md:block">
+                <div class="ml-10 flex items-baseline space-x-4">
+                  <a href="home.html" class="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium">Home</a>
+                  <a href="about.html" class="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium">About</a>
+                  <a href="service.html" class="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium">Services</a>
+                  <a href="shop.html" class="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium">Shop Now</a>
+                </div>
+              </div>
+            </div>
+            <div class="hidden md:block">
+              <div class="ml-4 flex items-center md:ml-6">
+                <button class="bg-gray-800 p-1 rounded-full text-gray-400 hover:text-white focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-gray-800 focus:ring-white">
+                  <span class="sr-only">View notifications</span>
+                  <!-- Add your notification icon here -->
+                </button>
+                <div class="ml-3 relative">
+                  <div>
+                    <button class="max-w-xs bg-gray-800 rounded-full flex items-center text-sm text-white focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-gray-800 focus:ring-white" id="user-menu" aria-haspopup="true">
+                      <span class="sr-only">Open user menu</span>
+                      <!-- Add your user avatar here -->
+                    </button>
+                  </div>
+                  <!-- Dropdown menu for user options -->
+                  <!-- Add your dropdown content here -->
+                </div>
+              </div>
+            </div>
+            <div class="-mr-2 flex md:hidden">
+              <button class="bg-gray-800 inline-flex items-center justify-center p-2 rounded-md text-gray-400 hover:text-white hover:bg-gray-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-gray-800 focus:ring-white" aria-expanded="false">
+                <span class="sr-only">Open main menu</span>
+                <!-- Add your menu icon here -->
+              </button>
+            </div>
+          </div>
+        </div>
+        <!-- Mobile menu, show/hide based on menu state. -->
+        <!-- Add your mobile menu content here -->
+      </nav>
+    <div class="bg-gray-800 text-white">
+        <div class="container mx-auto px-4 py-8">
+          <div class="grid grid-cols-1 md:grid-cols-2 items-center">
+            <div class="md:order-2">
+              <img src="/myimage/pexels-engin-akyurt-1527603.jpg" alt="Shop Now Image" class="w-full h-auto rounded-lg">
+            </div>
+    
+            <div class="md:order-1">
+              <h1 class="text-4xl font-bold mb-4">Welcome to our Shop!</h1>
+              <p class="text-lg mb-6">Discover a wide range of high-quality products that cater to your needs. From electronics to fashion, we have it all.</p>
+              <a href="#" class="bg-red-500 hover:bg-red-600 text-white font-semibold py-2 px-4 rounded-full inline-block">Shop Now</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    
+      <div class="container mx-auto px-4 py-8">
+        <h2 class="text-3xl font-semibold mb-4">Featured Products</h2>
+    
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+          <div class="bg-white rounded-lg shadow-md p-4">
+            <img src="/myimage/pexels-ash-376464.jpg" alt="Product 1" class="w-full h-auto mb-4">
+            <h3 class="text-xl font-semibold mb-2">Product 1</h3>
+            <p class="text-gray-700">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce placerat purus ac libero molestie, at tristique mauris tristique.</p>
+          </div>
+    
+          <div class="bg-white rounded-lg shadow-md p-4">
+            <img src="/myimage/pexels-3-edited2.jpg" alt="Product 2" class="w-full h-auto mb-4">
+            <h3 class="text-xl font-semibold mb-2">Product 2</h3>
+            <p class="text-gray-700">Nullam ac risus at lectus feugiat scelerisque. In nec dui et nisl rhoncus dignissim nec id elit.</p>
+          </div>
+    
+          <div class="bg-white rounded-lg shadow-md p-4">
+            <img src="/myimage/pexels-3.jpg" alt="Product 3" class="w-full h-auto mb-4">
+            <h3 class="text-xl font-semibold mb-2">Product 3</h3>
+            <p class="text-gray-700">Aenean laoreet lectus ut elit interdum, nec vestibulum nunc vestibulum. Morbi interdum ligula sed nulla efficitur, et semper magna.</p>
+          </div>
+        </div>
+      </div>
+      <div class="container mx-auto px-4 py-8">
+        <h1 class="text-4xl font-bold text-gray-800 mb-4">Shop Products</h1>
+    
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+          <div class="bg-white rounded-lg shadow-md p-6">
+            <div class="relative">
+              <div class="absolute bg-red-500 text-white px-2 py-1 rounded-tr-lg rounded-bl-lg -top-2 -left-2 transform rotate-45">Sale</div>
+              <img src="/myimage/home-img-3.png" alt="Product 1" class="w-full h-auto mb-4">
+            </div>
+            <h3 class="text-xl font-semibold mb-2">Product 1</h3>
+            <p class="text-gray-700 mb-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce placerat purus ac libero molestie, at tristique mauris tristique.</p>
+            <div class="flex items-center justify-between">
+              <p class="text-gray-700 font-bold">$49.99</p>
+              <button class="bg-blue-500 hover:bg-blue-600 text-white font-semibold py-2 px-4 rounded-full">Add to Cart</button>
+            </div>
+          </div>
+    
+          <div class="bg-white rounded-lg shadow-md p-6">
+            <img src="/myimage/pexels-1_edited.jpg" alt="Product 2" class="w-full h-auto mb-4">
+            <h3 class="text-xl font-semibold mb-2">Product 2</h3>
+            <p class="text-gray-700 mb-4">Nullam ac risus at lectus feugiat scelerisque. In nec dui et nisl rhoncus dignissim nec id elit.</p>
+            <div class="flex items-center justify-between">
+              <p class="text-gray-700 font-bold">$29.99</p>
+              <button class="bg-blue-500 hover:bg-blue-600 text-white font-semibold py-2 px-4 rounded-full">Add to Cart</button>
+            </div>
+          </div>
+    
+          <div class="bg-white rounded-lg shadow-md p-6">
+            <div class="relative">
+              <div class="absolute bg-red-500 text-white px-2 py-1 rounded-tr-lg rounded-bl-lg -top-2 -left-2 transform rotate-45">Sale</div>
+              <img src="/myimage/pexels-8.jpg" alt="Product 3" class="w-full h-auto mb-4">
+            </div>
+            <h3 class="text-xl font-semibold mb-2">Product 3</h3>
+            <p class="text-gray-700 mb-4">Aenean laoreet lectus ut elit interdum, nec vestibulum nunc vestibulum. Morbi interdum ligula sed nulla efficitur, et semper magna.</p>
+            <div class="flex items-center justify-between">
+                <p class="text-gray-700 font-bold">$39.99</p>
+                <button class="bg-blue-500 hover:bg-blue-600 text-white font-semibold py-2 px-4 rounded-full">Add to Cart</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="bg-black text-white">
+            <div class="container mx-auto py-8">
+              <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <div>
+                  <h2 class="text-xl font-bold mb-4">Clichop</h2>
+                  <ul class="list-none">
+                    <li><a href="#" class="text-gray-400 hover:text-white">1b Idowu taylor victoria island</a></li>
+                    <li><a href="#" class="text-gray-400 hover:text-white">Contact:- 123-987-980-90 or (87)-789-889-00</a></li>
+                    <li><a href="#" class="text-gray-400 hover:text-white">About</a></li>
+                    <li><a href="#" class="text-gray-400 hover:text-white">@2023 bobby.martins10@gmail.com</a></li>
+                  </ul>
+                </div>
+                <div>
+                  <h2 class="text-xl font-bold mb-4">Order Chart</h2>
+                  <ul class="list-none">
+                    <li><a href="#" class="text-gray-400 hover:text-white">Burger 1</a></li>
+                    <li><a href="#" class="text-gray-400 hover:text-white">Pizza 2</a></li>
+                    <li><a href="#" class="text-gray-400 hover:text-white">Chicken3</a></li>
+                  </ul>
+                </div>
+                <div>
+                  <h2 class="text-xl font-bold mb-4">Search</h2>
+                  <form>
+                    <input type="text" class="bg-gray-900 text-white py-2 px-4 rounded-md" placeholder="Search...">
+                    <button type="submit" class="bg-gray-800 hover:bg-gray-700 text-white py-2 px-4 rounded-md mt-2">Go</button>
+                  </form>
+                </div>
+              </div>
+            </div>
+          </div>        
+        
+    
+    
+    
+    
+   
+</body>
+</html>

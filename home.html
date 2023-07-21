@@ -1,0 +1,232 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>  
+  <nav class="bg-gray-800">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="flex items-center justify-between h-16">
+        <div class="flex items-center">
+          <div class="flex-shrink-0 p-2">
+            <h1 class="h-8 w-8 text-gray-200 text-2xl">Clichop</h1>
+          </div>
+          <div class="hidden md:block">
+            <div class="ml-10 flex items-baseline space-x-4">
+              <a href="home.html" class="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium">Home</a>
+              <a href="about.html" class="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium">About</a>
+              <a href="about.html" class="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium">Services</a>
+              <a href="shop.html" class="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium">Shop Now</a>
+            </div>
+          </div>
+        </div>
+        <div class="hidden md:block">
+          <div class="ml-4 flex items-center md:ml-6">
+            <button class="bg-gray-800 p-1 rounded-full text-gray-400 hover:text-white focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-gray-800 focus:ring-white">
+              <span class="sr-only">View notifications</span>
+              <!-- Add your notification icon here -->
+            </button>
+            <div class="ml-3 relative">
+              <div>
+                <button class="max-w-xs bg-gray-800 rounded-full flex items-center text-sm text-white focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-gray-800 focus:ring-white" id="user-menu" aria-haspopup="true">
+                  <span class="sr-only">Open user menu</span>
+                  <!-- Add your user avatar here -->
+                </button>
+              </div>
+              <!-- Dropdown menu for user options -->
+              <!-- Add your dropdown content here -->
+            </div>
+          </div>
+        </div>
+        <div class="-mr-2 flex md:hidden">
+          <button class="bg-gray-800 inline-flex items-center justify-center p-2 rounded-md text-gray-400 hover:text-white hover:bg-gray-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-gray-800 focus:ring-white" aria-expanded="false">
+            <span class="sr-only">Open main menu</span>
+            <!-- Add your menu icon here -->
+          </button>
+        </div>
+      </div>
+    </div>
+    <!-- Mobile menu, show/hide based on menu state. -->
+    <!-- Add your mobile menu content here -->
+  </nav>
+  
+  <div class="container mx-auto py-8">
+    <div class="grid grid-cols-2 md:grid-cols-2 lg:grid-cols-4 gap-0">
+      <div>
+        <img class="w-full h-full object-cover" src="./myimage/pexels-ash-376464.jpg" alt="Image 1">
+      </div>
+      <div>
+        <img class="w-full h-full object-cover" src="./myimage/pexels-engin-akyurt-1527603.jpg" alt="Image 2">
+      </div>
+      <div>
+        <img class="w-full h-full object-cover" src="./myimage/pexels-sebastian-coman-photography-3659862.jpg" alt="Image 3">
+      </div>
+      <div>
+        <img class="w-full h-full object-cover" src="./myimage/pexels-chan-walrus-958545.jpg" alt="Image 4">
+      </div>
+    </div>
+  </div>
+  
+  
+  <div class="container mx-auto px-4 py-8">
+    <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8">
+      <div class="bg-white rounded-lg shadow-lg">
+        <img class="h-64 w-full object-cover object-center rounded-t-lg" src="./myimage/pexels-2.jpg" alt="Image 1">
+        <div class="p-6">
+          <h3 class="text-xl font-medium mb-2">Chicken soupc</h3>
+          <p class="text-gray-600">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed consequat convallis convallis. Ut finibus ultricies tellus, sit amet bibendum mi fermentum in.</p>
+        </div>
+      </div>
+      <div class="bg-white rounded-lg shadow-lg">
+        <img class="h-64 w-full object-cover object-center rounded-t-lg" src="./myimage/pexels-8.jpg" alt="Image 2">
+        <div class="p-6">
+          <h3 class="text-xl font-medium mb-2">Freaky Meal</h3>
+          <p class="text-gray-600">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed consequat convallis convallis. Ut finibus ultricies tellus, sit amet bibendum mi fermentum in.</p>
+        </div>
+      </div>
+      <div class="bg-white rounded-lg shadow-lg">
+        <img class="h-64 w-full object-cover object-center rounded-t-lg" src="./myimage/pexels-8.jpg" alt="Image 3">
+        <div class="p-6">
+          <h3 class="text-xl font-medium mb-2">Meat Loof</h3>
+          <p class="text-gray-600">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed consequat convallis convallis. Ut finibus ultricies tellus, sit amet bibendum mi fermentum in.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="container mx-auto px-4 py-8">
+    <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8">
+      <div class="relative bg-white rounded-lg shadow-lg">
+        <img class="h-64 w-full object-cover object-center rounded-t-lg" src="./myimage/pexels-1.jpg" alt="Image 1">
+        <div class="absolute bottom-0 left-0 right-0 bg-gray-900 bg-opacity-50 py-2 px-4 text-white">
+          <h3 class="text-xl font-medium mb-2">Double Burger </h3>
+          <p class="text-gray-200">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed consequat convallis convallis. Ut finibus ultricies tellus, sit amet bibendum mi fermentum in.</p>
+        </div>
+      </div>
+      <div class="relative bg-white rounded-lg shadow-lg">
+        <img class="h-64 w-full object-cover object-center rounded-t-lg" src="./myimage/pexels-3-edited2.jpg" alt="Image 2">
+        <div class="absolute bottom-0 left-0 right-0 bg-gray-900 bg-opacity-50 py-2 px-4 text-white">
+          <h3 class="text-xl font-medium mb-2">Meal hot</h3>
+          <p class="text-gray-200">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed consequat convallis convallis. Ut finibus ultricies tellus, sit amet bibendum mi fermentum in.</p>
+        </div>
+      </div>
+      <div class="relative bg-white rounded-lg shadow-lg">
+        <img class="h-64 w-full object-cover object-center rounded-t-lg" src="./myimage/pexels-engin-akyurt-1527603.jpg" alt="Image 3">
+        <div class="absolute bottom-0 left-0 right-0 bg-gray-900 bg-opacity-50 py-2 px-4 text-white">
+          <h3 class="text-xl font-medium mb-2">Taste Meal</h3>
+          <p class="text-gray-200">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed consequat convallis convallis. Ut finibus ultricies tellus, sit amet bibendum mi fermentum in.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="relative">
+    <img class="w-full" src="./myimage/pexels-3.jpg" alt="Full Image">
+    <div class="absolute inset-0 flex items-center justify-center">
+      <div class="text-white text-center">
+        <h1 class="text-4xl font-bold mb-4">Meat Loop Pizza</h1>
+        <p class="text-lg font-bold">Let's GET STARTED! IS THIS ORDER FOR DELIVERY OR CARRYOUT
+        </p>
+      </div>
+    </div>
+  </div>
+  <div class="container mx-auto py-8">
+    <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8">
+      <div class="bg-white shadow-md rounded-md overflow-hidden">
+        <img class="w-full" src="./myimage/pexels-kristina-paukshtite-1998920.jpg" alt="Product Image">
+        <div class="p-4">
+          <h2 class="text-xl font-medium mb-2">Billy Meal</h2>
+          <span class="text-lg font-semibold">$49.99</span>
+        </div>
+      </div>
+      <div class="bg-white shadow-md rounded-md overflow-hidden">
+        <img class="w-full" src="./myimage/pexels-5.jpg" alt="Product Image">
+        <div class="p-4">
+          <h2 class="text-xl font-medium mb-2">Wheat Meat</h2>
+          <span class="text-lg text-red-400 font-semibold">$29.99</span>
+        </div>
+      </div>
+      <div class="bg-white shadow-md rounded-md overflow-hidden">
+        <img class="w-full" src="./myimage/pexels-1-edit2.jpg" alt="Product Image">
+        <div class="p-4">
+          <h2 class="text-xl font-medium mb-2">Fried Meat pizza</h2>
+          <span class="text-lg text-red-400 font-semibold">$19.99</span>
+        </div>
+      </div>
+      <div class="bg-white shadow-md rounded-md overflow-hidden">
+        <img class="w-full" src="./myimage/pexels-sebastian-coman-photography-3659862.jpg" alt="Product Image">
+        <div class="p-4">
+          <h2 class="text-xl font-medium mb-2">Pro chicken</h2>
+          <span class="text-lg font-semibold">$19.99</span>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="container mx-auto py-8">
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+      <div class="bg-white shadow-md rounded-md overflow-hidden">
+        <img class="w-full" src="./myimage/hand-holding-grilled-cheeseburger2.jpg" alt="Product Image">
+      </div>
+      <div class="bg-white shadow-md rounded-md overflow-hidden flex flex-col justify-center p-8">
+        <h2 class="text-2xl font-medium mt-6">Deal Out</h2>
+        <p class="text-gray-600 mb-8">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed consequat convallis convallis. Ut finibus ultricies tellus, sit amet bibendum mi fermentum in. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Consectetur, quaerat officiis sed error autem odit tempore temporibus saepe at quod aliquid.</p>
+        <a href="#" class="bg-blue-500 mb-6 hover:bg-blue-600 text-white font-bold py-2 px-4 rounded mb-6">Buy Now</a>
+      </div>
+    </div>
+  </div>
+  <div class="container mx-auto py-8">
+    <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-4 gap-8">
+      <div class="bg-white shadow-md rounded-md overflow-hidden">
+        <img class="w-full" src="./myimage/dish-1.png" alt="Image 1">
+      </div>
+      <div class="bg-white shadow-md rounded-md overflow-hidden">
+        <img class="w-full" src="./myimage/dish-3.png" alt="Image 2">
+      </div>
+      <div class="bg-white shadow-md rounded-md overflow-hidden">
+        <img class="w-full" src="./myimage/dish-5.png" alt="Image 3">
+      </div>
+      <div class="bg-white shadow-md rounded-md overflow-hidden">
+        <img class="w-full" src="./myimage/dish-6.png" alt="Image 4">
+      </div>
+    </div>
+  </div>
+  <div class="bg-black text-white">
+    <div class="container mx-auto py-8">
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+        <div>
+          <h2 class="text-xl font-bold mb-4">Clichop</h2>
+          <ul class="list-none">
+            <li><a href="#" class="text-gray-400 hover:text-white">1b Idowu taylor victoria island</a></li>
+            <li><a href="#" class="text-gray-400 hover:text-white">Contact:- 123-987-980-90 or (87)-789-889-00</a></li>
+            <li><a href="#" class="text-gray-400 hover:text-white">About</a></li>
+            <li><a href="#" class="text-gray-400 hover:text-white">@2023 bobby.martins10@gmail.com</a></li>
+          </ul>
+        </div>
+        <div>
+          <h2 class="text-xl font-bold mb-4">Order Chart</h2>
+          <ul class="list-none">
+            <li><a href="#" class="text-gray-400 hover:text-white">Burger 1</a></li>
+            <li><a href="#" class="text-gray-400 hover:text-white">Pizza 2</a></li>
+            <li><a href="#" class="text-gray-400 hover:text-white">Chicken3</a></li>
+          </ul>
+        </div>
+        <div>
+          <h2 class="text-xl font-bold mb-4">Search</h2>
+          <form>
+            <input type="text" class="bg-gray-900 text-white py-2 px-4 rounded-md" placeholder="Search...">
+            <button type="submit" class="bg-gray-800 hover:bg-gray-700 text-white py-2 px-4 rounded-md mt-2">Go</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  
+  
+  
+
+
+        
+    
+</body>
+</html>
